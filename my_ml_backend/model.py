@@ -10,7 +10,7 @@ import requests
 
 MODEL_DIR = os.getenv('MODEL_DIR')
 HOSTNAME = get_env('HOSTNAME', 'http://localhost:8080')
-API_KEY = "28ec729197ff9107f969d23ce804a444b0c416f0"
+API_KEY = ""
 
 print('=> LABEL STUDIO HOSTNAME = ', HOSTNAME)
 print('=> MODEL_DIR = ', MODEL_DIR)
